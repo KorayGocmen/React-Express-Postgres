@@ -18,7 +18,7 @@ var TestComponent = React.createClass({
   handleButtonClick: function(event) {
     Actions.add(1);
   },
-	render: function() {
+  render: function() {
     return (
     	<div>
     		Hello <input onChange={this.handleChange} defaultValue={this.state.value} type="text"/>
@@ -27,6 +27,7 @@ var TestComponent = React.createClass({
         <span>{this.state.count}: {this.state.value}</span>
      	</div>
   )}
+  
 });
 
 module.exports = TestComponent;

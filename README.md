@@ -1,23 +1,33 @@
-react-webpack-express
-=====================
+## React + Node App Boiler Plate
+---
 
-Boilerplate to start developing npm react components with webpack. Includes flux as npm module.
+Running the app
 
+`
+ npm run watch # start webpack watcher
+`
+`
+ npm run server # start the server
+`
 
-Usage
-=====
+---
 
-```
-git clone https://github.com/mixxen/react-webpack-express.git myapp
-cd myapp
-npm install
-npm run build
-npm run server
-open http://localhost:3000
-```
-Use `npm start` to run webpack watch.
+PotgresQL + Sequelize configured
 
-License
-=======
+* Migrations (automated run migrations upon start of server)
+* Config
+* Secrets
+* Models
 
-MIT
+---
+
+Middleware
+
+* Database connection
+* Error Handling
+
+---
+
+Forked and modified from https://github.com/mixxen/react-webpack-express
+Credit for the first version: Alex Cabello (https://github.com/mixxen)
+Modified by Koray Gocmen

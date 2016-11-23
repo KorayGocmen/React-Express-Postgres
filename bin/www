@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 var debug = require('debug')('MODULE_NAME');
 var app = require('../app');
+var chalk = require('chalk');
 
 app.set('port', process.env.PORT || 3000);
 
 var server = app.listen(app.get('port'), function() {
-  console.log('Express server listening on port ' + server.address().port);
+  console.log(chalk.cyan('Express server listening on port ' + server.address().port));
 });
