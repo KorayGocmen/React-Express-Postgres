@@ -1,6 +1,6 @@
 {
-  "name": "React + Express",
-  "version": "0.2.0",
+  "name": "ReactEX",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "flux": "^2.1.1",
